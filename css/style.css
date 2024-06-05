@@ -1,3 +1,6 @@
+
+
+
 nav{
     width: 100%;
     display: flex;
@@ -47,6 +50,9 @@ table{
 
     background-color: #f3f3f3;
 }
+thead tr th{
+    text-align: center;
+}
 tbody tr th,td{
     padding: 5px;
     border: 1px solid rgb(223, 229, 223);
@@ -62,6 +68,10 @@ tr td{
 .tbody2{
 
     background-color: yellow;
+}
+.table{
+    width: 85%;
+    margin: 0 auto;
 }
 
 .hidden{
