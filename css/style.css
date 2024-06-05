@@ -9,7 +9,7 @@ nav{
 ul{
     width: 100%;
     
-   padding: 0.2rem;
+   padding: 0.5rem;
     display: flex;
     overflow-x: scroll;
     /* justify-content: center; */
@@ -19,16 +19,17 @@ ul{
 .active{
     background-color: rgb(249, 192, 192) !important;
 }
-nav{
-    /* padding: 10px; */
-}
+
 li{
     display: block;
-    padding: 10px;
-  
+    padding: 25px;
+    
     text-align: center;
     background-color: #eee;
     border: 1px solid #ddd;
+}
+li:hover{
+    cursor: pointer;
 }
 i{
     width: 15px;
