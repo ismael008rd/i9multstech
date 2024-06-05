@@ -42,7 +42,8 @@ i.bi{
     color: red;
 }
 table{
-    width: 100%;
+    padding: 15px;
+    width: 85%;
 
     background-color: #ddd;
 }
@@ -75,7 +76,10 @@ tr td{
 
 @media screen and (max-width:540px){
     .responsivo{
-       display: block;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
     }
     .table{
         display: none;
